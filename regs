@@ -1,0 +1,10 @@
+sudo curl -LkO https://raw.githubusercontent.com/remoteit/installer/master/scripts/auto-install.sh
+sleep 5s
+sudo chmod +x ./auto-install.sh
+sleep 5s
+sudo ./auto-install.sh
+sleep 5s
+sudo connectd_installer
+
+
+

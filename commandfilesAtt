@@ -1,0 +1,35 @@
+#!/bin/bash
+#DIR='/home/ran/Software/'
+#echo "Copying Software Files to /home/ran/Software"
+#echo "Please wait......"
+#echo ""
+#echo ""
+scp AttRegistration_bckup.sh AttRegistration.sh
+scp AttRegistration.sh AttRegistration_bckup.sh
+#scp /media/ran/*/software/* /home/ran/Software
+#sudo chmod +x /home/ran/Software/*.bin
+#for FILE in "$DIR"*.bin
+#do
+#sudo $FILE LAX_VM /usr/lib/jvm/java-8-openjdk-armhf/jre/bin/java
+#sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-8-openjdk-armhf/jre/bin/java 1000
+#sudo update-alternatives --install /home/ran/BTSManager/jre/1_8_0/bin/java java /usr/lib/jvm/java-8-openjdk-armhf/jre/bin/java 10
+#echo ""
+#echo ""
+#echo ""
+#echo "You can only install BTS Manager one at a time so press enter when you are"
+#echo "ready to install the next one"
+#read
+#sleep 5s
+#done
+#returnvalue(){
+#	value=$(which expect)
+#	echo $value
+#}
+#returnvalue
+#if [ "$(returnvalue)" == "" ];
+#then
+#   sudo apt-get install expect;
+#else
+#   echo "Expect Package is already installed";
+#fi
+#sleep 5s

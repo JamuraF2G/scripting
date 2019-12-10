@@ -1,0 +1,6 @@
+********************************************************
+remote.it platform and binary tester version 2.3.17 
+Current directory /media/ran/4288973688972805/JamuraTool/Sprint
+Fri Oct 11 02:44:19 +0630 2019
+********************************************************
+Linux NokNAM-9170 4.4.132+ #1 SMP Tue Oct 23 18:03:49 CST 2018 armv7l GNU/Linux
