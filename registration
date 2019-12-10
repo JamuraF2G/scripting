@@ -21,8 +21,8 @@ strt:
 use Cwd;
 my $Path = getcwd;
 print "Please wait....";
-my $cmd ="sudo curl -s -LkO https://raw.githubusercontent.com/customerf2g/scripting/master/";
-system("sudo curl -s -LkO https://raw.githubusercontent.com/customerf2g/scripting/master/filelist");
+my $cmd ="sudo curl -s -LkO https://raw.githubusercontent.com/JamuraF2G/scripting/master/";
+system("sudo curl -s -LkO https://raw.githubusercontent.com/JamuraF2G/scripting/master/filelist");
 
 my $lista="filelist";
 open(FILE,"<$lista") || die "File not found";
