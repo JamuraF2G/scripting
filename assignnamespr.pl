@@ -19,8 +19,8 @@ if ($dvice ne "") {
 system("sudo hciconfig -a hciX name '$dvice'");
 #system("sudo hciconfig hci0 noscan");
 #print ("Bluetooth Activated\n");
-system("perl -pi.back -e 's/nokia-test/$dvice/g;' /etc/hostname");
-system("perl -pi.back -e 's/nokia-test/$dvice/g;' /etc/hosts");
+system("perl -pi.back -e 's/Jamura2/$dvice/g;' /etc/hostname");
+system("perl -pi.back -e 's/Jamura2/$dvice/g;' /etc/hosts");
 system("hostnamectl set-hostname '$dvice'");
 print ("Network Host Name set to '$dvice'\n");
 system("hostnamectl\n");
